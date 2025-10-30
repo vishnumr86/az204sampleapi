@@ -1,0 +1,13 @@
+{
+    "name": "sampleapi",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "description": "Sample web api to test on azure",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.1.0"
+    }
+}
