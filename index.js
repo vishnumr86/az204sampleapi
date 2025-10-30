@@ -8,3 +8,7 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 app.get("/url", (req, res, next) => {
  res.json(["Tony","Lisa","Michael","Ginger","Food"]);
 });
+
+app.get("/", (req, res) => {
+  res.send("Hello from Azure Node.js API!");
+});
