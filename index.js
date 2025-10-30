@@ -1,3 +1,4 @@
+console.log("App starting...");
 var express = require("express");
 var app = express();
 
