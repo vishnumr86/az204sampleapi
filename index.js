@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 app.get("/url", (req, res, next) => {
- res.json(["Tony","Lisa","Michael","Ginger","Food"]);
+ res.json(["Tony","Lisa","Michael","Ginger"]);
 });
 
 app.get("/", (req, res) => {
